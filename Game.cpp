@@ -20,7 +20,7 @@ void Game::initWindow()
 	this->videoMode.height = 600;
 	this->videoMode.width = 800;
 
-	this->window = new sf::RenderWindow(this->videoMode, "Falling Game By Puneeth A R, Prabhu Shankar, Pranav", sf::Style::Titlebar | sf::Style::Close);
+	this->window = new sf::RenderWindow(this->videoMode, "Falling Blocks Game By Puneeth A R", sf::Style::Titlebar | sf::Style::Close);
 
 	this->window->setFramerateLimit(60);
 }
